@@ -1,4 +1,11 @@
-function Card(props) {
+import { ReactNode } from "react";
+
+function Card(props: {
+  children: ReactNode;
+  year: string;
+  companyName: string;
+  personalNote: string;
+}) {
   return (
     <div className="flex flex-col text-white md:flex-row md:justify-between">
       {props.children}
