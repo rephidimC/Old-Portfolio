@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <div>
-      <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+      <nav className="flex items-center justify-between flex-wrap bg-black-500 p-6">
         <div className="flex items-center shrink-0 text-white mr-6">
           <Link href="/" className="font-semibold text-xl md:text-3xl">
             Victor
